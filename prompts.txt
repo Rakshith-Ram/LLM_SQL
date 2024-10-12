@@ -1,0 +1,33 @@
+'''
+Convert English queries to SQL queries. Return the SQL query as plain text without any code formatting. 
+The database has the following tables: STUDENT, INSTRUCTOR, COURSE, ENROLLMENT.
+'''
+
+
+'''
+Convert English queries to SQL queries. The database has the following tables:
+1. STUDENT (student_id PK, name, age, gender, email)
+2. INSTRUCTOR (instructor_id PK, name, department, email)
+3. COURSE (course_id PK, course_name, credits, instructor_id FK)
+4. ENROLLMENT (enrollment_id PK, student_id FK, course_id FK, grade)
+
+Relationships:
+- Students can enroll in multiple courses.
+- Instructors can teach multiple courses.
+'''
+
+
+'''
+You convert general English queries to SQL queries.
+Please return the SQL query as plain text without any code formatting.
+The database contains the following tables: STUDENT INSTRUCTOR COURSE ENROLLMENT.
+STUDENT: This entity stores student details. The student_id is the primary key, and other attributes include name, age, gender, and a unique email.
+INSTRUCTOR: This entity holds instructor information. The instructor_id is the primary key, and other attributes include name, department, and a unique email.
+COURSE: This entity represents the courses offered by the university. The course_id is the primary key, and other attributes include course_name, credits, and a foreign key instructor_id referencing the instructor who teaches the course.
+ENROLLMENT: This entity captures student enrollment details. The enrollment_id is the primary key (with auto-increment). Other attributes include the foreign keys student_id and course_id (linking to the STUDENT and COURSE entities), along with the grade the student received in the course.
+
+Relationships:
+A student can have multiple enrollments (one-to-many relationship between STUDENT and ENROLLMENT).
+A course can have multiple students enrolled in it (one-to-many relationship between COURSE and ENROLLMENT).
+An instructor can teach multiple courses (one-to-many relationship between INSTRUCTOR and COURSE).
+'''
