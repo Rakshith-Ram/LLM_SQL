@@ -4,5 +4,6 @@
 
 
 **ER diagram of database:**
-
-<img src="https://github.com/Rakshith-Ram/LLM_SQL_generator/blob/main/er_dig.png" alt="Alt text" width="300" height="200">
+<div align="center">
+  <img src="https://github.com/Rakshith-Ram/LLM_SQL_generator/blob/main/er_dig.png" alt="Alt text" width="900" height="600">
+</div>div>
