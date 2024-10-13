@@ -6,7 +6,7 @@
 4. `.env` file with the OPENAI_API_KEY = .... must be created in the directory of the application.
 5. `requirements.txt` contains all the pre-requisite libraries.
 
-
+""
 
 **Screenshot of a sample query on the application:**
 
