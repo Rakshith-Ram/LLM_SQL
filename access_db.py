@@ -1,3 +1,5 @@
+### Use this script to check table summary of a file like example.db ###
+
 import sqlite3
 
 def get_database_connection(db_file):
