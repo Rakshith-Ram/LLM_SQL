@@ -1,3 +1,5 @@
+### Runs a Streamlit application on the browser, to generate and execute SQL queries from NLQs powered by an LLM API ###
+
 import streamlit as st
 import sqlite3
 from openai import OpenAI
