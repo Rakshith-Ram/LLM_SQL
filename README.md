@@ -5,7 +5,7 @@
 3. Some example prompts which are the system_prompts to the LLM are present in the file `prompts.txt`.
 4. `.env` file with the OPENAI_API_KEY = .... must be created in the directory of the application.
 5. `requirements.txt` contains all the pre-requisite libraries.
-6. The contents of a database can be accessed using `access_db.py`
+6. The contents of the database can be accessed using `access_db.py`
 
 &nbsp;
 &nbsp;
