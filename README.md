@@ -7,7 +7,9 @@
 5. `requirements.txt` contains all the pre-requisite libraries.
 6. The example system prompts which are passed to the LLM are present in `prompts.txt`
 
-""
+&NewLine;
+&NewLine;
+
 
 **Screenshot of a sample query on the application:**
 
