@@ -14,4 +14,4 @@
 **Screenshot of a sample query on the application:**
 
 
-![](https://github.com/Rakshith-Ram/LLM_SQL_generator/blob/main/SQL-Query-Generator.png)
+![](https://github.com/Rakshith-Ram/LLM_SQL_generator/blob/main/SQL_Query_Generator.png)
